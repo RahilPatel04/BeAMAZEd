@@ -2,6 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 
+//Maze.cs includes all the algorithms for maze generation
+//GameManager.cs is the highest level view of the program, 
+//and uses these functions to generate a random maze
+
 public class Maze : MonoBehaviour {
 
 	public IntVector2 size;				//size of maze

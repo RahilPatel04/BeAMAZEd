@@ -29,7 +29,10 @@ public class GameManager : MonoBehaviour
 	private void BeginGame()
 	{
 		mazeInstance = Instantiate(mazePrefab) as Maze;
-		StartCoroutine(mazeInstance.Generate());        //generate maze
+		StartCoroutine(mazeInstance.Generate());        //generate maze (need to add joints to maze for rotating)
+
+		//spawn powerup objects
+
 	}
 
 	private void RestartGame()
