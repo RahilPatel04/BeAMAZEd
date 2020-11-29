@@ -15,7 +15,7 @@ Welcome to a VR maze game that has initially no escape from the maze. The ultima
 
 * Obtaining the Key and taking it to the maze exit
 
-![Image of PowerUp](https://cdn.discordapp.com/attachments/769945456021078079/782715373585694740/unknown.png)
+![Image of PowerUp](https://cdn.discordapp.com/attachments/769945456021078079/782746259953418240/key.PNG)
 
 * Avoiding the bee swarm that is placed in the randomly generated Maze
 
