@@ -39,11 +39,20 @@ In order to be able to complete the maze you will need to find the special power
 Enemy AI that autonomously patrols the maze trying to find you and stop you from completing the level.  Goal is to avoid the Bee Swarm at all costs.
 
 ## Strategies
+The strategies to completing the game is to quickly find the powerups that are randomly spawned throughout the maze.  Take it and find the end of the maze without being caught by the Bee Swarm that is patroling the map at random trying to find you.  Once you make it to the end of the maze, remove one of the walls that is blocking the last challange to complete with the found powerup.  Once you complete the 3 mini games the final key will spawn in.  Once you pick up the key, you are finally able to exit the maze.
 
 ## Issues Faced
 Some of the issues that we faced during this project was mainly with Oculus' OVR controller support with our Unity enviornment.  One day it just stopped working and we were unable to fix the enviornment to get everything working again.  We reverted back to previous commits that we all made, however, that did not fix our problem.  We had to start a whole new project instead.  Another small issue that we ran into was getting the Oculus controllers to interact with Rigid Objects in the scene.  When these objects were picked up, they would float by the users feet rather than stay in their hands.  
 
 ## Contributions
+* Joshua Williams
+
+* Rahil Patel
+
+* Trevor Pike
+
+* Schafer Cunningham
+
 
 ## Resources Used
 
