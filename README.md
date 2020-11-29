@@ -22,10 +22,13 @@ Welcome to a VR maze game that has initially no escape from the maze. The ultima
 ![Image of PowerUp](https://cdn.discordapp.com/attachments/769945456021078079/782720107986157588/unknown.png)
 
 ## Key Area (Minigames)
-The key area ( what is it . just write liek 3 sentences or more about it) Maybe mention why its important to go here so you can get the key and how you have to do all three of them
+The key area is one of the final areas of the game that you must unlock and complete in order to beat the game.  The only way to be able to beat the game is to obtain the key and to do this it is very important to complete the three mini games: Shooting Task, Wire Task, Basketball Task.  Once you complete the three games a golden key will appear on a table in the center of that room.  Once you pick up the key, you will be able to exit the maze thus beating the game.
 ### Shooting Task
+To complete this task, you will have to pick up the Uzi that is placed on a table in the scene and shoot the moving punching bag dummy in the chest 10 times.  Make sure to pick up the Uzi with the left controller in order to shoot it properly.
 ### Wire Task
+To complete this task, you will have to drag each of the color sliders to the end of their bar.  The controls for this part is pointing the included laser pointer at the color bar, hold down the button A on the right controller and dragging the cirlce to the end of the bar.
 ### Basketball Task
+To complete this task, you will need to pick up the basketball with either hand and shoot it into the custom basketball hoop we made
 
 ## Maze Exit 
 At the start of the game the maze has no finish.  You will spawn randomly in the maze and to be able to exit the maze you must find the powerups to remove the walls blocking the mini games.  Once you complete the mini games you will recieve the key to then be able to exit the maze thus completing the level.
