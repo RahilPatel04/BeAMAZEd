@@ -22,10 +22,13 @@ Welcome to a VR maze game that has initially no escape from the maze. The ultima
 ![Image of PowerUp](https://cdn.discordapp.com/attachments/769945456021078079/782720107986157588/unknown.png)
 
 ## Key Area (Tasks)
-
+* Avoid the Bee Swarm.
+* Find powerups to remove the walls bocking the mini games.
+* Complete the mini games to obtain the key to leave the maze.
+* Leave the maze.
 
 ## Maze Exit 
-
+At the start of the game the maze has no finish.  You will spawn randomly in the maze and to be able to exit the maze you must find the powerups to remove the walls blocking the mini games.  Once you complete the mini games you will recieve the key to then be able to exit the maze thus completing the level.
 
 ## Powerups
 In order to be able to complete the maze you will need to find the special powerups that are randomly spawned throughout the maze.  These powerups give the user the ability to remove whichever wall you want in the maze.  Since the game is all closed off at the start, it is necassary for the user to find and use these powerups to be able to complete the maze and win.
