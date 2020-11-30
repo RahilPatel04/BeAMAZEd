@@ -58,8 +58,28 @@ MazeCell randCell = CreateCell(RandomCoordinates);
 activeCells.Add(randCell);	//append to array
  ```
 - Choose an adjacent cell
+```
+ MazeDirection direction = currentCell.RandomUninitializedDirection;				//choose random direction
+	IntVector2 coordinates = currentCell.coordinates + direction.ToIntVector2();    //get coordinates of next cell in that direction
+```
   - If the cell is already explored, place a wall between the current cell and the adjacent cell.
   - Else, initialize the cell and mark the edges of the cells as "passages" so a wall isn't placed between them.
+  ```
+  if (ContainsCoordinates(coordinates))   //if next cell's chosen coordinates are inside the map
+		{
+			MazeCell neighbor = GetCell(coordinates);
+			if (neighbor == null)	//if it's available, move there (create a passage)
+			{
+				neighbor = CreateCell(coordinates);
+				CreatePassage(currentCell, neighbor, direction);
+				activeCells.Add(neighbor);
+			}
+			else	//if it's not available to move to, put a wall up
+			{
+				CreateWall(currentCell, neighbor, direction);
+			}
+		}
+  ```
 - If there are no more adjacent cells, backtrack until there is an available adjacent cell.
 
 The maze must also leave two "holes" for the tasks area and the maze's ending area. These coordinates are determined randomly, and are included in `ContainsCoordinates()`, a function which is called during maze generation to make sure the maze is still able to be solved with those "holes"
