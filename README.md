@@ -51,9 +51,12 @@ In order to be able to complete the maze you will need to find the special power
 
 The maze is generated randomly on each run, at any size, pre-determined by the programmer. The maze uses a "tree branching" algorithm, cosisting of the following steps:
 
-
-
 - Choose a random starting spot
+```
+//get first cell coordinate
+MazeCell randCell = CreateCell(RandomCoordinates);
+activeCells.Add(randCell);	//append to array
+ ```
 - Choose an adjacent cell
   - If the cell is already explored, place a wall between the current cell and the adjacent cell.
   - Else, initialize the cell and mark the edges of the cells as "passages" so a wall isn't placed between them.
