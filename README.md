@@ -47,7 +47,11 @@ At the start of the game the maze has no finish.  You will spawn randomly in the
 In order to be able to complete the maze you will need to find the special powerups that are randomly spawned throughout the maze.  These powerups give the user the ability to remove whichever wall you want in the maze.  Since the game is all closed off at the start, it is necassary for the user to find and use these powerups to be able to complete the maze and win.
 
 ## Randomly Generated Maze 
+![Image of mazeGeneration](https://cdn.discordapp.com/attachments/769945456021078079/782841543618068490/mazeGeneration.gif)
+
 The maze is generated randomly on each run, at any size, pre-determined by the programmer. The maze uses a "tree branching" algorithm, cosisting of the following steps:
+
+
 
 - Choose a random starting spot
 - Choose an adjacent cell
