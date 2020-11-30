@@ -55,7 +55,7 @@ In order to be able to complete the maze you will need to find the special power
 ## Randomly Generated Maze 
 ![Image of mazeGeneration](https://cdn.discordapp.com/attachments/769945456021078079/782841543618068490/mazeGeneration.gif)
 
-The maze is generated randomly on each run, at any size, pre-determined by the programmer. The maze uses a "tree branching" algorithm, cosisting of the following steps:
+The maze is generated randomly on each run, at any size, pre-determined by the programmer. The maze uses a "tree branching" algorithm, which means any area of the maze is accessible from any other area of the maze. The algorithm cosists of the following steps:
 
 - Choose a random starting spot
 ```
