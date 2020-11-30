@@ -105,7 +105,50 @@ public bool ContainsCoordinates(IntVector2 coordinate)
 ```
 
 ## Bee Swarm
-Enemy AI that autonomously patrols the maze trying to find you and stop you from completing the level.  Goal is to avoid the Bee Swarm at all costs.
+Enemy AI that autonomously patrols the maze, trying to find you and stop you from completing the level. The AI works by making a choice about its direction every time it enters a new cell in the maze.
+- If the AI is not in a new cell, it continues to move down the maze.
+```
+currentCell = getCurrentCell();
+if (currentCell == lastCell)
+{
+    beeSwarm.transform.Translate(direction * Time.deltaTime * speed * 0.7f);
+}
+```
+
+- If the AI is in a new cell, it then chooses a random direction to go in. However, it prefers to move forward if possible; it only turns around if it's at a dead end.
+```
+int[] availables = currentCell.GetPassages();   //figure out which sides of the cell are open
+
+//if it's not a dead end, remove the opposite direction as an option
+if(availables.Length > 1)
+availables = removeOppositeDirection(availables, direction);
+
+//choose one of those directions randomly
+int choice = UnityEngine.Random.Range(0, availables.Length);   //random number between 0-#passages
+int pathChoice = availables[choice];
+
+switch (pathChoice)
+{
+case 0:
+    direction = Vector3.forward;
+    transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+    break;
+case 1:
+    direction = Vector3.right;
+    transform.rotation = Quaternion.Euler(0f, 90f, 0f);
+    break;
+case 2:
+    direction = Vector3.back;
+    transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+    break;
+case 3:
+    direction = Vector3.left;
+    transform.rotation = Quaternion.Euler(0f, 270f, 0f);
+    break;
+}
+
+lastCell = currentCell;
+```
 
 ## Sounds
 Spacial sounds for the bee swarm that will alert how close the bees are to the player. Also added sounds for gunshots for the uzi model that goes off once the gun has been shot. Lastly added intense music to the maze environment to make the player more immersed in the game. Our video may not have recorded the sounds due to technical issues but they are definitely there.
