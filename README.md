@@ -57,12 +57,12 @@ The maze is generated randomly on each run, at any size, pre-determined by the p
 
 The maze must also leave two "holes" for the tasks area and the maze's ending area. These coordinates are determined randomly, and are included in `ContainsCoordinates()`, a function which is called during maze generation to make sure the maze is still able to be solved with those "holes"
 
-
 ## Bee Swarm
 Enemy AI that autonomously patrols the maze trying to find you and stop you from completing the level.  Goal is to avoid the Bee Swarm at all costs.
 
 ## Sounds
-Spacial sounds for the bee swarm that will alert how close the bees are to the player. Also added sounds for gunshots.
+Spacial sounds for the bee swarm that will alert how close the bees are to the player. Also added sounds for gunshots for the uzi model that goes off once the gun has been shot. Lastly added intense music to the maze environment to make the player more immersed in the game. Our video may not have recorded the sounds due to technical issues but they are definitely there.
+
 ## Strategies
 The strategies to completing the game is to quickly find the powerups that are randomly spawned throughout the maze.  Take it and find the end of the maze without being caught by the Bee Swarm that is patroling the map at random trying to find you.  Once you make it to the end of the maze, remove one of the walls that is blocking the last challange to complete with the found powerup.  Once you complete the 3 mini games the final key will spawn in.  Once you pick up the key, you are finally able to exit the maze.
 
@@ -77,6 +77,7 @@ Some of the issues that we faced during this project was mainly with Oculus' OVR
   Worked on the task area (Minigames), end game area, HUD, and integrated the oculus interface with the minigames. Worked with trevor and used the 3d models to put it in the minigame area. Coordinated with schafer and tested out the oculus with the minigames. Worked with Josh to integrate the minigame area and the endgame area in the random maze generator.
 
 * Trevor Pike
+Worked on the starting area which includes canvases that are both static and interactive with the user and created scripts to start the game when the player chooses to. Added sounds into the game and contributed audio gun functionality. Modeled 3D objects such as floors, walls and powerup icon in Blender, textured them, and imported them into Unity. Worked with shafer to run debugging of our games functionality in the starting area with the Oculus hardware.
 
 * Schafer Cunningham
 
@@ -111,4 +112,15 @@ Bullet: https://sketchfab.com/3d-models/bullet-9-mm-4cc75b7ef1bc474392c319a47fd9
 
 Lion Skull: https://sketchfab.com/3d-models/lion-skull-c2016a3161954a00be97929750d55174
 
+Maze Wall Texture: https://www.poliigon.com/texture/ground-gravel-003
+
+Maze Floor Texture: https://www.textures.com/download/3dscans0493/134322
+
+Powerup Coin Texture: https://www.textures.com/download/substance0062/128402
+
+Gunshot Sounds: https://www.fesliyanstudios.com/royalty-free-sound-effects-download/gun-shooting-300
+
+Epic Music: https://www.fesliyanstudios.com/royalty-free-music/downloads-c/epic-music/4
+
+Bee Sounds: https://www.salamisound.com/1920781-humming-of-a-beehive-swarm
 
