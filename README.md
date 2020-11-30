@@ -162,6 +162,8 @@ Some of the issues that we faced during this project was mainly with Oculus' OVR
 ## Contributions
 * Joshua Williams
 
+  Worked on the random maze generation, enemy AI, procedurally placing all the objects, handling overall game logic, and integrating all the parts designed by other group members.
+
 * Rahil Patel
 
   Worked on the task area (Minigames), end game area, HUD, and integrated the oculus interface with the minigames. Worked with trevor and used the 3d models to put it in the minigame area. Coordinated with schafer and tested out the oculus with the minigames. Worked with Josh to integrate the minigame area and the endgame area in the random maze generator.
