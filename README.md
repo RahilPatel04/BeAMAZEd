@@ -47,6 +47,16 @@ At the start of the game the maze has no finish.  You will spawn randomly in the
 In order to be able to complete the maze you will need to find the special powerups that are randomly spawned throughout the maze.  These powerups give the user the ability to remove whichever wall you want in the maze.  Since the game is all closed off at the start, it is necassary for the user to find and use these powerups to be able to complete the maze and win.
 
 ## Randomly Generated Maze 
+The maze is generated randomly on each run, at any size, pre-determined by the programmer. The maze uses a "tree branching" algorithm, cosisting of the following steps:
+
+- Choose a random starting spot
+- Choose an adjacent cell
+  - If the cell is already explored, place a wall between the current cell and the adjacent cell.
+  - Else, initialize the cell and mark the edges of the cells as "passages" so a wall isn't placed between them.
+- If there are no more adjacent cells, backtrack until there is an available adjacent cell.
+
+The maze must also leave two "holes" for the tasks area and the maze's ending area. These coordinates are determined randomly, and are included in `ContainsCoordinates()`, a function which is called during maze generation to make sure the maze is still able to be solved with those "holes"
+
 
 ## Bee Swarm
 Enemy AI that autonomously patrols the maze trying to find you and stop you from completing the level.  Goal is to avoid the Bee Swarm at all costs.
