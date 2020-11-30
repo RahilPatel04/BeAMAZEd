@@ -84,7 +84,8 @@ Some of the issues that we faced during this project was mainly with Oculus' OVR
   Worked on the task area (Minigames), end game area, HUD, and integrated the oculus interface with the minigames. Worked with trevor and used the 3d models to put it in the minigame area. Coordinated with schafer and tested out the oculus with the minigames. Worked with Josh to integrate the minigame area and the endgame area in the random maze generator.
 
 * Trevor Pike
-Worked on the starting area which includes canvases that are both static and interactive with the user and created scripts to start the game when the player chooses to. Added sounds into the game and contributed audio gun functionality. Modeled 3D objects such as floors, walls and powerup icon in Blender, textured them, and imported them into Unity. Worked with Schafer to run debugging of our games functionality in the starting area with the Oculus hardware.
+
+ Worked on the starting area which includes canvases that are both static and interactive with the user and created scripts to start the game when the player chooses to. Added sounds into the game and contributed audio gun functionality. Modeled 3D objects such as floors, walls and powerup icon in Blender, textured them, and imported them into Unity. Worked with Schafer to run debugging of our games functionality in the starting area with the Oculus hardware.
 
 * Schafer Cunningham
 
