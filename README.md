@@ -4,6 +4,7 @@ Group Members:
 * Rahil Patel
 * Trevor Pike
 * Schafer Cunningham
+
 ## Project Proposal
 https://docs.google.com/presentation/d/1qQ4-ICjIHno5b4hUp1YqKgLDHjFbx9KGk5eri1VJ3ys/edit?usp=sharing
 
@@ -30,9 +31,11 @@ The key area is one of the final areas of the game that you must unlock and comp
 ### Shooting Task
 To complete this task, you will have to pick up the Uzi that is placed on a table in the scene and shoot the moving punching bag dummy in the chest 10 times.  Make sure to pick up the Uzi with the left controller in order to shoot it properly.
 ![Image of ShootingTask](https://cdn.discordapp.com/attachments/769945456021078079/782753334649421884/Capture2.PNG)
+
 ### Wire Task
 To complete this task, you will have to drag each of the color sliders to the end of their bar.  The controls for this part is pointing the included laser pointer at the color bar, hold down the button A on the right controller and dragging the cirlce to the end of the bar.
 ![Image of WireTask](https://cdn.discordapp.com/attachments/769945456021078079/782753292978749460/Capture3.PNG)
+
 ### Basketball Task
 To complete this task, you will need to pick up the basketball with either hand and shoot it into the custom basketball hoop we made
 ![Image of BasketballTask](https://cdn.discordapp.com/attachments/769945456021078079/782753413997002762/Capture1.PNG)
@@ -48,6 +51,8 @@ In order to be able to complete the maze you will need to find the special power
 ## Bee Swarm
 Enemy AI that autonomously patrols the maze trying to find you and stop you from completing the level.  Goal is to avoid the Bee Swarm at all costs.
 
+## Sounds
+Spacial sounds for the bee swarm that will alert how close the bees are to the player. Also added sounds for gunshots.
 ## Strategies
 The strategies to completing the game is to quickly find the powerups that are randomly spawned throughout the maze.  Take it and find the end of the maze without being caught by the Bee Swarm that is patroling the map at random trying to find you.  Once you make it to the end of the maze, remove one of the walls that is blocking the last challange to complete with the found powerup.  Once you complete the 3 mini games the final key will spawn in.  Once you pick up the key, you are finally able to exit the maze.
 
