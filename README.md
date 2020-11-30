@@ -91,6 +91,18 @@ if (currentCell.IsFullyInitialized)
 ```
 
 The maze must also leave two "holes" for the tasks area and the maze's ending area. These coordinates are determined randomly, and are included in `ContainsCoordinates()`, a function which is called during maze generation to make sure the maze is still able to be solved with those "holes"
+```
+//if a coordinate is within the bounds of the maze
+public bool ContainsCoordinates(IntVector2 coordinate)
+{
+	//remove cells for adding the task area
+	bool isInMazeBounds = coordinate.x >= 0 && coordinate.x < size.x && coordinate.z >= 0 && coordinate.z < size.z;
+	bool isInTaskBounds = (coordinate.x >= taskRandX) && (coordinate.x < (taskRandX + taskDiam)) && (coordinate.z >= taskRandZ) && (coordinate.z < (taskRandZ + taskDiam));
+	bool isInEndBounds = (coordinate.x >= endRandX) && (coordinate.x < (endRandX + taskDiam)) && (coordinate.z >= endRandZ) && (coordinate.z < (endRandZ + taskDiam));
+
+	return isInMazeBounds && !isInTaskBounds && !isInEndBounds;
+}
+```
 
 ## Bee Swarm
 Enemy AI that autonomously patrols the maze trying to find you and stop you from completing the level.  Goal is to avoid the Bee Swarm at all costs.
