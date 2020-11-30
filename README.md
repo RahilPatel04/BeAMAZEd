@@ -71,3 +71,19 @@ Some of the issues that we faced during this project was mainly with Oculus' OVR
 
 ## Resources Used
 
+Bee: https://sketchfab.com/3d-models/bee-d4683f98637745f1a989bb013215c8de
+https://sketchfab.com/3d-models/bee-94cf4c8bb42f4d58ad01b9e9e523d902
+
+Gloves: https://sketchfab.com/3d-models/bee-94cf4c8bb42f4d58ad01b9e9e523d902
+
+Sky: https://wwwtyro.github.io/space-3d/#animationSpeed=1&fov=80&nebulae=true&pointStars=true&resolution=1024&seed=1lanraot0mhs&stars=true&sun=true
+Dungeon Pillar: https://sketchfab.com/3d-models/fantasy-dungeon-pillar-6a6ba602f4f74d4493494b4c97b6afdc
+Dungeon Kit: https://sketchfab.com/3d-models/modular-myan-inspired-dungeon-10f3dc23c6dc4fd99083e3128d83ee2f
+Basketball: https://sketchfab.com/3d-models/basketball-33d01509e1fa4deeb23ccd807b686ad3
+Sacrifice Table: https://sketchfab.com/3d-models/sacrifice-table-99d4eff5fe0544b9bf22b7a0b69cb169
+Dungeon Key: https://sketchfab.com/3d-models/darkest-dungeon-key-c8d3ec39bde64ab29a78b06a2648986e
+UZI Gun: https://sketchfab.com/3d-models/uzi-fde60adc8aff4c61b6a8bea1f9e0743f
+Gun Table: https://sketchfab.com/3d-models/scotts-bluff-dining-table-distressed-100438-ca8264cb29304c52963afee969e9206a
+Bullet: https://sketchfab.com/3d-models/bullet-9-mm-4cc75b7ef1bc474392c319a47fd97348
+Lion Skull: https://sketchfab.com/3d-models/lion-skull-c2016a3161954a00be97929750d55174
+
